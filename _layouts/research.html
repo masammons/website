@@ -1,0 +1,101 @@
+---
+layout: default
+---
+{% assign research = page %}
+
+<div class="blog-post">
+	<div class="row">
+		<div class="col-md-1"></div>	
+		<div class="col-md-10">
+			<div class="media">
+				<div class="media-body">
+					<div class="title media-heading">
+						<a href="{{ page.url }}" class="off">{{ page.title }}</a>
+					</div>
+					<p>
+<!--					<div class="smallhead">
+						{{ page.date | date_to_string }}
+						{% if author %}
+						by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+						{% endif %}		
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>					
+	</div>
+
+	<div class="bigspacer"></div>
+
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">	
+			{% if page.image %}
+			<img width=500 class="offset" src="{{ page.image }}">
+			{% endif %}
+			<div class="post">
+				{{ content }}
+			</div>
+            
+        <div class="bigspacer"></div>
+		<div class="head">Publications</div>
+		<div class="spacer"></div>
+		{% for paper in site.categories.papers %}
+		{% if paper.tags contains research.tag %}
+		<p>{{ paper.title }}
+        <a href="{{ paper.url }}" class="note">{{ paper.ref }}</a>
+<!--        <a class="off">{{ paper.ref }}</a>-->
+		{% endif %}
+		{% endfor %}
+
+<!--           
+		{% for project in site.projects %}
+			{% for contributor in project.contributors %}
+				{% if contributor.login == member.github %}
+					{% assign projectsq = true %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+		
+		{% if projectsq == true %}
+		<div class="bigspacer"></div>
+		<div class="head">Projects</div>
+		<div class="spacer"></div>
+		{% for project in site.projects %}
+			{% assign present = false %}
+			{% for contributor in project.contributors %}
+				{% if contributor.login == member.github %}
+					{% assign present = true %}
+				{% endif %}
+			{% endfor %}
+			{% if present == true %}
+				<p><a href="{{ project.url }}" class="off">{{ project.title }} - {{ project.description }}</a>
+			{% endif %}
+		{% endfor %}	
+		{% endif %}							
+		
+		{% for post in site.categories.blog %}
+		{% if member.title == post.author %}
+		{% assign postsq = true %}
+		{% endif %}
+		{% endfor %}
+		
+		{% if postsq == true %}
+		<div class="bigspacer"></div>		
+		<div class="head">Posts</div>
+		<div class="spacer"></div>
+		{% for post in site.categories.blog %}
+		{% if member.title == post.author %}
+		<p><a href="{{ post.url }}" class="off">{{ post.title }}</a>
+		{% endif %}
+		{% endfor %}	
+		{% endif %}	
+            -->
+		</div>			
+		<div class="col-md-1"></div>
+	</div>
+	
+	<div class="bigspacer"></div>
+	<div class="spacer"></div>	
+
+</div>
