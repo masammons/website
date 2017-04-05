@@ -1,7 +1,7 @@
 name: Sammons Lab Research
 description: Science updates on transcription factors, chromatin, and p53 biology from the Sammons Lab at the State University of New York at Albany
 
-markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
 future: true
 
