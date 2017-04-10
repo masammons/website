@@ -3,8 +3,8 @@ layout: member
 title: Kegan Shreffler
 position: Undergraduate
 handle: kshreffler
-email: ?@albany.edu
+email: whatever@albany.edu
 image: /images/team/kegan-shreffler.jpg
 alumni: false
 ---
-
+This is information that Kegan doesn't want shared. 

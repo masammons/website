@@ -1,0 +1,9 @@
+The p53 family of transcription factors
+p53 is commonly referred to as the "guardian of the genome".  Data from multiple experimental models demonstrate a critical and direct role for the p53 family of proteins in protecting organisms from the effects of genetic mutations.  
+ 
+When cells or organisms experience genotoxic or other forms of damage, p53 is activated and binds to a conserved DNA sequence and activates transcription of cell and organism-protective genes.  We will use genomic and systems concepts to uncover how p53 properly activates its target genes in reponse to various cellular insults. 
+Chromatin and cis-regulation in the p53 network
+We previously discovered that p53 extensively binds to transcriptional regulatory sequences known as enhancers (Sammons et al, 2015).  Enhancers are DNA sequences critical for temporal and spatial control of gene expression. We believe that p53 binding and regulation of enhancers is a fundamental function for p53 across cell types.
+ 
+​
+ One hypothesis is that the original role for the p53 family was to safeguard the germline, and offspring, from deleterious mutations.  On an evolutionary timescale, the p53 family of proteins gained critical new functions like tumor suppression and in the developmental control of epithelial cell types, like skin.  These evolutionarily "old" activities are of great interest to us

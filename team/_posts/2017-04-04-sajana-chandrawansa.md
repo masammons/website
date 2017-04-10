@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Merlyn Ramirez
+title: Sajana Chandrawansa
 position: Undergraduate
 handle: mramirez
 email: unknown@albany.edu

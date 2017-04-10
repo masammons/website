@@ -12,35 +12,28 @@ redcarpet:
    - autolink
    - superscript
    - strikethrough
+root: /
 
 exclude:
-  - vendor
-  - "*.class"
+  - "*.branches"
+  - "*.kml"
+  - "*.log"
+  - "*.nb"
+  - "*.trees"
   - "*.cpp"
   - "*.h"
   - "*.hh"
-  - "*.ipynb"
-  - "*.jar"
   - "*.java"
-  - "*.nb"
-  - "*.py"
-  - "*.R"
-  - "*.rb"
-  - "*.Rmd"
-  - "*.branches"
+  - "*.jar"
   - "*.csv"
-  - "*.fasta"
-  - "*.kml"
-  - "*.log"
-  - "*.mcc"
-  - "*.newick"
-  - "*.nex"
   - "*.tsv"
-  - "*.tips"
-  - "*.trees"
   - "*.txt"
-  - "*.zip"
-  - "*.gz"
+  - "*.rb"
+  - "*.py"
+  - "*.class"
+  - "*.tips"
+  - "*.fasta"
+  - "*.nex"
   - "Gemfile"
   - "Gemfile.lock"
  

@@ -1,4 +1,5 @@
+*_website.yml
 vendor/
 /vendor/
 _site
-
+*.env
