@@ -14,3 +14,6 @@ gem 'jekyll-press'
 # octokit
 gem 'octokit'
 gem 'netrc'
+
+#s3_website
+#gem s3_website
