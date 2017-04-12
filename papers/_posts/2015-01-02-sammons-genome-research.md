@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: TP53 engagement with the genome occurs in distinct local chromatin environments via pioneer factor activity
-image: /images/papers/black-zika-in-usvi.png
+image: /images/papers/2015-sammons-genome-research.png
 authors: Sammons MA, Zhu J, Drake AM, Berger SL
 year: 2015
 ref: Sammons et al. Genome Res 2015

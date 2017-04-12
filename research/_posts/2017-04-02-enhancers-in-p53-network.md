@@ -2,7 +2,7 @@
 layout: research
 title: Enhancers in the p53 network
 author: Morgan Sammons
-image: /images/albany-logo.png
+image: /images/research/enhancer-research.png
 tag: enhancer
 ---
 
