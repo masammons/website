@@ -26,7 +26,8 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="smallhead">
-			We study chromatin and p53. And how those interact with and influence each other.
+			We study the interplay between chromatin and transcription factors. Chromatin structure influences the interaction of transcription factors with DNA, a regulatory mechanism with implications in almost every developmental process and disease state. The activity of sequence-specific transcription factors also directly informs local and long-range chromatin structure.
+			The lab uses the p53 family of transcription factors as a model to study different facets of the interaction between chromatin structure and transcription factor biology. We use classical genetic and molecular techniques along with genome and systems-wide approaches to study how chromatin and p53 family members interact with and influence each other.   
 		</div>
 	</div>				
 </div>
