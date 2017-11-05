@@ -2,7 +2,6 @@
 layout: post
 title: ASBMB Evolution and Core Processes in Gene Expression
 author: Morgan Sammons
-image: /images/blog/
 ---
 
 ### ASBMB Symposium: Evolution and Core Processes in Gene Expression

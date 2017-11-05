@@ -5,6 +5,6 @@ position: Undergraduate
 handle: asarap
 email: ?@albany.edu
 image: /images/team/aleyna-sarap.jpg
-alumni: false
+alumni: true
 ---
 
