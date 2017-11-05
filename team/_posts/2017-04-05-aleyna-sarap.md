@@ -3,8 +3,8 @@ layout: member
 title: Aleyna Sarap
 position: Undergraduate
 handle: asarap
-email: ?@albany.edu
-image: /images/team/aleyna-sarap.jpg
+email: unknown@albany.edu
+image: /images/nuc.jpg
 alumni: true
 ---
 
