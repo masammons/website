@@ -4,7 +4,6 @@ title: ASBMB Evolution and Core Processes in Gene Expression
 author: Morgan Sammons
 ---
 
-### ASBMB Symposium: Evolution and Core Processes in Gene Expression
 Kansas City, MO 
 Stowers Institute
 July 13th-16th, 2017

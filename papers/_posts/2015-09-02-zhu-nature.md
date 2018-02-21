@@ -3,7 +3,7 @@ layout: paper
 title: Gain-of-function p53 mutants co-opt chromatin pathways to drive cancer growth
 image: /images/papers/2015-zhu-nature.png
 authors: Zhu J, Sammons MA, Donahue G, Dou Z, Vedadi M, Geglik M, Barsyte-Lovejoy D, Al-Awar R, Katona B, Shilatifard A, Huang J, Hua X, Arrowsmith C, and Berger SL
-ref: Zhu J, Sammons MA, Donahue G, Dou Z, Vedadi M, Geglik M, Barsyte-Lovejoy D, Al-Awar R, Katona B, Shilatifard A, Huang J, Hua X, Arrowsmith C, and Berger SL
+ref: Zhu J et al. Nature 2015
 journal: "Nature"
 pdf: /pdfs/papers/2015-zhu-nature.pdf
 doi: 10.1038/nature15251

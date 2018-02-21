@@ -41,7 +41,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox">
-			{% for post in site.categories.blog limit:6 %}
+			{% for post in site.categories.blog limit:3 %}
 			
 				{% for member in site.categories.team %}
 					{% if member.title == post.author %}
@@ -77,7 +77,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox">		
-			{% for paper in site.categories.papers limit:5 %}
+			{% for paper in site.categories.papers limit:3 %}
 				<div class="note">
 					<i class="fa fa-file-text fa-fw"></i>
 					<a class="off" href="{{ paper.url }}">
@@ -101,7 +101,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox">
-			{% for post in site.categories.news limit:6 %}
+			{% for post in site.categories.news limit:3 %}
 			
 				{% for member in site.categories.team %}
 					{% if member.title == post.author %}
@@ -136,7 +136,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
-			{% for project in site.data.projects limit:8 %}
+			{% for project in site.data.projects limit:3 %}
 				<div class="note">
 					<i class="fa fa-edit fa-fw"></i>
 					<a class="off" href="{{ project.url }}">

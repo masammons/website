@@ -38,6 +38,50 @@ layout: default
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
+		{% if member.bs %}
+		<div class="smallhead">
+			Bachelor of Science
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-rocket fa-fw"></i>
+			<a class="off">{{ member.bs }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+		{% if member.ba %}
+		<div class="smallhead">
+			Bachelor of Arts
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-rocket fa-fw"></i>
+			<a class="off" >{{ member.ba }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+			{% if member.ms %}
+		<div class="smallhead">
+			Master of Science
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-star-o fa-fw"></i>
+			<a class="off" >{{ member.ms }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+			{% if member.phd %}
+		<div class="smallhead">
+			Doctor of Philosophy
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-star-o fa-fw"></i>
+			<a class="off" >{{ member.phd }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
 		{% if member.twitter %}
 		<div class="smallhead">
 			Twitter

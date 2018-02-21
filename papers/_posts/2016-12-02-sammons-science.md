@@ -3,7 +3,7 @@ layout: paper
 title: Epigenetic stability of exhausted T cells limits durability of reinvigoration by PD-1 blockade
 image: /images/papers/2016-pauken-science.png
 authors: Pauken KE, Sammons MA, Odorizzi PM,  Manne SK, Godec J, Khan O, Drake AM, Chen Z, Sen D, Kurachi M, Barnitz RA, Bartman C, Bengsch B, Huang AC, Schenkel HM, Vahedi G, Haining WN, Berger SL, and Wherry EJ
-ref: Pauken KE, Sammons MA, Odorizzi PM,  Manne SK, Godec J, Khan O, Drake AM, Chen Z, Sen D, Kurachi M, Barnitz RA, Bartman C, Bengsch B, Huang AC, Schenkel HM, Vahedi G, Haining WN   Berger SL, and Wherry EJ
+ref: Pauken KE et al. Science 2016
 journal: "Science"
 pdf: /pdfs/papers/2016-pauken-science.pdf
 doi: 10.1126/science.aaf2807

@@ -2,7 +2,7 @@
 layout: member
 title: Ally Catizone
 position: Graduate Student
-handle: acatizone
+handle: catizone
 email: acatizone@albany.edu
 image: /images/team/ally-catizone.jpg
 alumni: false
