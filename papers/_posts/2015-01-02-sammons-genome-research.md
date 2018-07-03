@@ -4,7 +4,7 @@ title: TP53 engagement with the genome occurs in distinct local chromatin enviro
 image: /images/papers/2015-sammons-genome-research.png
 authors: Sammons MA, Zhu J, Drake AM, Berger SL
 year: 2015
-ref: Sammons et al. Genome Res 2015
+ref: Fraietta et al. Genome Res 2015
 journal: "Genome Research"
 doi: 10.1101/gr.181883.114
 pdf: /pdfs/papers/2015-sammons-genome-research.pdf
