@@ -2,8 +2,8 @@
 layout: paper
 title: Comparison of genotoxic vs. non-genotoxic stabilization of p53 provides insight into parallel stress-responsive transcriptional networks
 image: /images/papers/2018-catizone-bioRxiv.png
-authors: Catizone NA, Berger SL, Sammons MA
-ref: Catizone NA, et al. bioRxiv 2018
+authors: Catizone AN, Berger SL, Sammons MA
+ref: Catizone AN, et al. bioRxiv 2018
 journal: "bioRxiv"
 pdf: /pdfs/papers/2018-catizone-bioRxiv.pdf
 doi: 10.1101/360974
