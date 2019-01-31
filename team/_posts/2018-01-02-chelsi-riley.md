@@ -4,7 +4,7 @@ title: Chelsi Riley
 position: Undergraduate
 handle: criley
 email: criley@albany.edu
-image: 
+image: /images/nuc.jpg
 alumni: false
 ---
 
