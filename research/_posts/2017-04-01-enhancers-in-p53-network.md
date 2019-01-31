@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Enhancers in the p53 network
+title: Biology of p53 enhancers
 author: Morgan Sammons
 tag: enhancer
 ---

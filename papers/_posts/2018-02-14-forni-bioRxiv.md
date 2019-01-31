@@ -3,10 +3,10 @@ layout: paper
 title: The transcription factor Tfap2e/AP-2ε plays a pivotal role in maintaining the identity of basal vomeronasal sensory neurons
 image: /images/papers/2018-forni-bioRxiv.png
 authors: Lin JM, Taroc EZM, Frias JA, Prasad A, Catizone AN, Sammons MA, Forni PE.
-ref: Lin JM et al. bioRxiv 2018
-journal: "bioRxiv"
-pdf: /pdfs/papers/2018-forni-bioRxiv.pdf
-doi: 10.1101/265280
+ref: Lin JM et al. Developmental Biology 2018
+journal: "Developmental Biology"
+pdf: /pdfs/papers/2018-forni-devbio.pdf
+doi: 10.1016/j.ydbio.2018.06.007
 ---
 
 # Abstract
