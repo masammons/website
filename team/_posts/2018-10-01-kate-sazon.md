@@ -8,5 +8,5 @@ image: /images/nuc.jpg
 alumni: false
 ---
 
-Kate is a fresham Bioinstrumentation  major at the University at Albany.  
+Kate is a freshman Bioinstrumentation  major at the University at Albany.  
 

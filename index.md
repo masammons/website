@@ -121,7 +121,7 @@ We study the interplay between chromatin and transcription factors. Chromatin st
 			</div>
 			<div class="smallspacer"></div>
 			<div class="smallnote">
-				Postedw
+				Posted
 				{{ paper.date | date: "%-d %b %Y" }}
 			</div>
 			<div class="bigspacer"></div>
