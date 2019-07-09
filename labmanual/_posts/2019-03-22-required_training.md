@@ -1,16 +1,26 @@
 ---
 layout: post
-title: Postdoctoral Fellow Information
+title: Required Training
 link: 
 author: Morgan Sammons
 image: 
 ---
 
-So you're a postdoctoral trainee and have just joined (or are looking to join) the Sammons Lab in the Department of Biological Sciences? Here's some information that might be useful for you.
+####Required Training for all Lab Members
 
-------------------
-####Postdoc Timeline and Key Events
+_Online training_  
 
-_Year 1:_  
-1. Honestly, everything is a nightmare. 
+* Go to [CITI](https://about.citiprogram.org/en/homepage/) and register using your UAlbany credientials. 
+* Take the "Introduction to Biosafety" course
+* Take the "Training for Investigators, Staff, and Students Handling Biohazards" course.
+* Take the "Shipping and Transport of Regulated Biological Materials" course. 
+* Take the "Managing Conflicts of Interest in Research" course. 
+
+When complete, print or save the certificate and send to [Morgan](/team/morgan-sammons).
+
+_In-person training_
+
+[The University at Albany Department of Environmental Health and Safety](https://www.albany.edu/ehs/) has in-person training every few months for biohazard and general lab safety. You are required to take this!!!
+
+For more information, please see the [EHS website](https://www.albany.edu/ehs/laboratorysafety.shtml)
 
