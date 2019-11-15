@@ -17,7 +17,7 @@ I also run a research lab. We study the [p53 family of transcription factors](/r
 
 My academic career started at the [University of Toledo](http://www.utoledo.edu) in the Department of Biological Sciences. I performed undergraduate research in the lab of [Dr. Brian Ashburner](http://www.utoledo.edu/nsm/bio/research/ashburner.html). Brian is now the Associate Dean for Graduate Affairs in the College of Natural Sciences and Mathematics. 
 
-I then pursued my PhD at [Vanderbilt University] where I worked with [Dr. Andrew Link](https://wag.app.vanderbilt.edu/PublicPage/Faculty/Details/26885). I graduated in 2010. 
+I then pursued my PhD at [Vanderbilt University](www.vanderbilt.edu) where I worked with [Dr. Andrew Link](https://wag.app.vanderbilt.edu/PublicPage/Faculty/Details/26885). I graduated in 2010. 
 
 My postdoctoral work was performed under the mentorship of [Dr. Shelley Berger](http://hosting.med.upenn.edu/berger/) at the University of Pennsylvania. Dr. Berger runs the Epigenetics Institue in the Perelman School of Medicine at Penn. 
 

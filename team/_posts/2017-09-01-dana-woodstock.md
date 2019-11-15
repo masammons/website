@@ -1,13 +1,15 @@
 ---
 layout: member
 title: Dana Woodstock
-position: Graduate Student
+position: PhD Student
 handle: woodstock
 email: dwoodstock@albany.edu
 twitter:
 scholar:
-image: /images/nuc.jpg
+image: /images/team/dana-woodstock.jpg
 
 ---
 
-Dana is a 1st year MCDN Program graduate student who joined the lab in the spring of 2019. 
+Dana is a 2nd year MCDN Program graduate student who joined the lab in the spring of 2019. 
+
+Dana is most interested in how p53 family members cooperate and compete at the level of DNA. 
