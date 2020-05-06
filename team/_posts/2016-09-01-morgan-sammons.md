@@ -6,7 +6,7 @@ handle: sammons
 email: masammons@albany.edu
 twitter: sammonslab
 scholar: 3JscVhgAAAAJ
-cv: /pdfs/cv/sammons-academic-cv-May2019.pdf
+cv: /pdfs/links/Sammons_Academic_CV_May2020.pdf
 image: /images/team/morgan-sammons.jpg
 
 ---

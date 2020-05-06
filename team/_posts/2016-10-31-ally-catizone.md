@@ -4,7 +4,7 @@ title: Ally Catizone
 position: PhD Candidate
 handle: catizone
 email: acatizone@albany.edu
-image: /images/team/ally-catizone.jpg
+image: /images/team/ally-catizone-2.jpg
 alumni: false
 ---
 
