@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Graduate Student Information
+title: Lab Onboarding Documents
 link: 
 author: Morgan Sammons
- 
-
-------------------
+image: 
+---
 ####PhD Student Timeline and Key Events
 
 _Year 1 May:_  
@@ -16,7 +15,7 @@ _Year 1:_
 
 * Your first summer is devoted to reading the relevant literature and gaining skills and confidence in the lab. 
 * You must sign up for a total of 10 credits in all semesters moving forward. To do this, use BIO898 to bring your credits up to 10. This means signing up for between 1 and 7 credits of BIO898. 
-* You are being paid by the *department*
+* You are being paid by the *lab* 
 * You should take a vacation.
 
 _Year 2:_  
@@ -28,6 +27,7 @@ _Year 2:_
 * You must present as part of BIO650, our department colloquium, in the mid-to-late spring.  
 * You must present at the Life Sciences Symposium.  
 * If you are on a TAship, you are paid by the *department* for the academic year.  
+* If you are not on a TAship, you are on a Research Assistantship (RA) and are paid by *the lab*.
 * *The Lab* pays you for the summer period.  
 * You should take a vacation. 
 

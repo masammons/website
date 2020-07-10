@@ -15,11 +15,19 @@ The Sammons Lab is located in the Life Sciences Building on the Uptown Campus of
 Life Sciences Building 2075  
 Albany, NY 1222
 
+**Our phone numbers are:**
+
+Lab Phone: 518-442-4326
+
+Morgan's Office: 518-442-4526
+
+Personal contact information is available in the lab Slack group (p53ome)
+
 ------------------
 
 **University Police**  
 2-3131 (from campus phone)  
-(518)-442-3131 (from cell  
+(518)-442-3131 (from cell)
 
 **For Emergencies, Dial 911**
 
