@@ -16,8 +16,10 @@ image:
 
 **Storage**: Room Temperature
 
+**Storage Location**: Chemical bench
+
 **Preparation**: For a 5% weight/volume solution, add 1.74 grams to 10mL of ultrapure water. 
 
-**Notes**:
+**Notes**: Detergent; used for purification of pAG-MNase 
 
 
