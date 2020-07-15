@@ -1,22 +1,21 @@
 ---
 layout: post 
-title: Phase Lock Tubes (Heavy)
+title: Benzonase
 link: 
 author: Morgan Sammons
 image: 
 ---
 
-**Supplier**: Quanta Bio (VWR)
+**Supplier**: Millipore
 
-**Item Number**: 10847-802
+**Item Number**: 70664-3
 
-**Storage**: Room temperature
+**Storage**: 4˚C
 
-**Storage Location**: Main lab, drawer under microcentrifuges
+**Storage Location**: Common Freezer
 
-**Uses**: Phase separation during nucleic acid purification
+**Uses**: Digestion of DNA and RNA during cell lysate prep
 
-**Notes**: Spin down in microcentrifuge before use to get gel evenly distributed at the bottom of the tube
-
+**Notes**: Use at 0.01 units/uL final in RIPA buffer for cell lysate prep. 
 
 
