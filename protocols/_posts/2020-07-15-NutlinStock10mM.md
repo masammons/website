@@ -1,0 +1,15 @@
+---
+layout: post 
+title: Stock 1000x Nutlin (10mM)
+link: 
+author: Serene Durham
+image: 
+---
+​
+**Stock 1000x Nutlin (10mM)**
+1. Dissolve entire 5mg vial of Nutlin in 860uL DMSO. Vortex to mix thoroughly. 
+2. Aliquot 50uL of stock solution into 1.5mL microcentrifuge tubes labeled "Nutlin 10mM".
+3. Store aliquots at -20C in Common Reagents Freezer in p53 Activating Drugs box. 
+
+**1x Nutlin (10uM)**
+1. For 1x final Nutlin, perform a 1:1000 dilution. For example: to 5mL of media, add 5uL of Nutlin.

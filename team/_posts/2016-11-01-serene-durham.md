@@ -4,7 +4,7 @@ title: Serene Durham
 position: PhD Student
 handle: durham
 email: sdurham@albany.edu
-image: /images/team/serene-durham.jpg
+image: /images/team/durham_june2021.jpg
 alumni: false
 ---
 

@@ -21,10 +21,21 @@ We study the interplay between chromatin and transcription factors. Chromatin st
 <p>
 			The lab uses the p53 family of transcription factors as a model to study different facets of the interaction between chromatin structure, transcription factor biology, and cell fate decisions. We use classical genetic and molecular techniques along with genome and systems-wide approaches to study how chromatin and p53 family members interact with and influence each other.  
 </p> 
+<p>
+</p>
+<p>
+</p>
+<p>
+
+</p>
+
 		</div>
 	</div>				
 </div>
-<img class="img-responsive center" src="/images/team/team_photo_2019_small.jpg">
+<img class="img-responsive center" src="/images/team/Lab_Photo_Spring2021.png">
+
+
+
 <div class="bigspacer"></div>
 <div class="bigspacer"></div>
 

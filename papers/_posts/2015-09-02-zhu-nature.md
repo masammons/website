@@ -7,6 +7,7 @@ ref: Zhu J et al. Nature 2015
 journal: "Nature"
 pdf: /pdfs/papers/2015-zhu-nature.pdf
 doi: 10.1038/nature15251
+tag: p53
 ---
 
 # Abstract

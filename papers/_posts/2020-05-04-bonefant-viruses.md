@@ -7,6 +7,7 @@ ref: Bonefant G, et al. Viruses 2020
 journal: "Viruses"
 pdf: /pdfs/papers/2020-pager-viruses.pdf
 doi: 10.3390/v12050510 
+tag: collab
 ---
 
 # Abstract

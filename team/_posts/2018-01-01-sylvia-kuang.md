@@ -8,6 +8,6 @@ image: /images/team/sylvia-kuang.png
 alumni: true
 ---
 
-Sylvia is an Honors College student here at the University at Albany. She'll be doing her Honors thesis in the Sammons lab. She plans to graduate in 2019 and attend medical school afterwards. 
+Sylvia was an Honors College student here at the University at Albany majoring in Biology. She did her Honors thesis research in the Sammons lab and was awarded the [Glenn Bumpus Award for Excellence in Undergraduate Research](/news/Sylvia.Bumpus). She graduated in 2019.
 
-Sylvia hails from Brooklyn, New York. 
+She is now a medical student at SUNY Downstate Medical School in Brooklyn. 

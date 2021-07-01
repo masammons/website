@@ -4,9 +4,8 @@ title: Lauren Merchant
 position: Undergraduate
 handle: lmerchant
 email: lmerchant@albany.edu
-image: /images/nuc.jpg
-alumni: false
+image: /images/team/flashman.png
+alumni: true
 ---
 
-Lauren is a sophomore Biology major and member of the Honors College. She'll be doing research in the lab as part of her Honors thesis.
-
+Lauren was a Biology major and member of the Honors College. She graduated in the Spring of 2021. 

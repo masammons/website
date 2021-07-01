@@ -6,7 +6,7 @@ handle: woodstock
 email: dwoodstock@albany.edu
 twitter:
 scholar:
-image: /images/team/dana-woodstock.jpg
+image: /images/team/woodstock_june2021.jpg
 
 ---
 

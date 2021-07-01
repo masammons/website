@@ -8,6 +8,7 @@ ref: Sammons et al. Genome Res 2015
 journal: "Genome Research"
 doi: 10.1101/gr.181883.114
 pdf: /pdfs/papers/2015-sammons-genome-research.pdf
+tag: p53
 ---
 
 # Abstract

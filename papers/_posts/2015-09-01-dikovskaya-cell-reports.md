@@ -6,6 +6,7 @@ authors: Dikovskaya D, Cole JJ, Mason SM, Nixon C, Karim SA, McGarry L, Clark W,
 ref: Dikovskaya D et al. Cell Reports 2015
 pdf: /pdfs/papers/2015-dikovskaya-cell-reports.pdf
 doi: 10.1016/j.celrep.2015.07.055
+tag: collab
 ---
 
 # Abstract

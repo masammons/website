@@ -7,6 +7,7 @@ ref: Catizone, et al. Nucleic Acids Research 2020
 journal: "Nucleic Acids Research"
 pdf: /pdfs/papers/2020-catizone-nar.pdf
 doi: 10.1093/nar/gkaa147
+tag: enhancer
 ---
 
 This manuscript was originally described in *Catizone AN et al bioRxiv 2019*

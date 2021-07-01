@@ -7,6 +7,7 @@ ref: Catizone AN, et al. Cell Cycle 2019
 journal: "Cell Cycle"
 pdf: /pdfs/papers/2019-catizone-cellcycle.pdf
 doi: 10.1080/15384101.2019.1593643
+tag: p53
 ---
 
 # Abstract

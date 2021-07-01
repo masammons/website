@@ -7,6 +7,7 @@ ref: Link, et al. Proteomics 2020
 journal: "Proteomics"
 pdf: /pdfs/papers/2020-link-proteomics.pdf
 doi: 10.1002/pmic.201900177
+tag: collab
 ---
 
 # Abstract

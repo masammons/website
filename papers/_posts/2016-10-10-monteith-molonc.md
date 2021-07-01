@@ -7,6 +7,7 @@ ref: Monteith JA et al. Molecular Oncology 2016
 journal: "Molecular Oncology"
 pdf: /pdfs/papers/2016-monteith-molonc.pdf
 doi: 10.1016/j.molonc.2016.05.007
+tag: p53
 ---
 
 # Abstract

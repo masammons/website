@@ -7,6 +7,7 @@ ref: Karsli Uzunbas G, et al. Journal of Biological Chemistry 2019
 journal: "Journal of Biological Chemistry"
 pdf: /pdfs/papers/2019-KarsliUzunbas-JBC.pdf
 doi: 10.1074/jbc.RA119.007965
+tag: p53
 ---
 
 # Abstract
