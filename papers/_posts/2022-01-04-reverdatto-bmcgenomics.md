@@ -3,7 +3,7 @@ layout: paper
 title: Developmental and Injury-induced Changes in DNA Methylation in Regenerative versus Non-regenerative Regions of the Vertebrate Central Nervous System
 image: /images/papers/2022-reverdatto-bmcgenomics.png
 authors: Reverdatto S, Prasad A, Belrose JL, Zhang X, Sammons MA, Gibbs KM, and Szaro B
-ref: Reverdatto, et al. Front. Cell Dev. Biol 2022
+ref: Reverdatto, et al. BMC Genomics 2022
 journal: "BMC Genomics"
 pdf: /pdfs/papers/2022-reverdatto-bmcgenomics.pdf
 doi: 10.1186/s12864-021-08247-0
