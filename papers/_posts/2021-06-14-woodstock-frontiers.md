@@ -5,7 +5,7 @@ image: /images/papers/2021-woodstock-frontiers.png
 authors: Woodstock DL, Sammons MA, and Fischer M
 ref: Woodstock, et al. Front. Cell Dev. Biol 2021
 journal: "Frontiers in Cell and Developmental Biology"
-pdf: /pdfs/papers/2020-sammons-nar.pdf
+pdf: /pdfs/papers/2021-woodstock-frontiers.pdf
 doi: 10.3389/fcell.2021.701986
 tag: p53
 ---
