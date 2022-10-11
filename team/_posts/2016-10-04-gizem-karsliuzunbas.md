@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Gizem Karsli Uzunbas
+title: Gizem Karsli Uzunbas, PhD
 position: Postdoctoral Associate
 handle: uzunbas
 email: gkarsliuzunbas@albany.edu

@@ -32,7 +32,7 @@ We study the interplay between chromatin and transcription factors. Chromatin st
 		</div>
 	</div>				
 </div>
-<img class="img-responsive center" src="/images/team/Lab_Photo_Spring2021.png">
+<img class="img-responsive center" src="/images/team/Sammons_Lab_March2022.jpg">
 
 
 

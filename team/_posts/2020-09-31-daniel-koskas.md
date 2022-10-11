@@ -5,10 +5,10 @@ position: Undergraduate
 handle: dkoskas
 email: dkoskas@albany.edu
 image: /images/team/koskas_june2021.jpg
-alumni: false
+alumni: true
 ---
 
-Dan is an Honors College student here at the University at Albany and is doing his undergraduate thesis in the Sammons Lab.   
+Dan graduated with a BS in Biological Sciences with Departmental and College Honors from the University at Albany. He performed his undergraduate biology honors thesis work in the Sammons lab.   
 
 
 

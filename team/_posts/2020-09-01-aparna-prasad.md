@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Aparna Prasad
+title: Aparna Prasad, PhD
 position: Research Scientist
 handle: aprasad
 email: aprasad2@albany.edu

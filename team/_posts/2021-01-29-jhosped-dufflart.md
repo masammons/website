@@ -4,7 +4,7 @@ title: Jhosped Dufflart
 position: PhD student
 handle: jdufflart
 email: jdufflart@albany.edu
-image: /images/team/dufflart_june2021.jpg
+image: /images/team/dufflart_march2022.jpg
 alumni: false
 ---
 

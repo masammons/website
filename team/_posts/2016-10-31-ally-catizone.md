@@ -1,7 +1,7 @@
 ---
 layout: member
-title: Ally Catizone
-position: PhD Candidate
+title: Ally Catizone, PhD
+position: PhD Student
 handle: catizone
 email: acatizone@albany.edu
 image: /images/team/ally-catizone-2.jpg

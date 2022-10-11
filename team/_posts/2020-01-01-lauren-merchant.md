@@ -8,4 +8,4 @@ image: /images/team/flashman.png
 alumni: true
 ---
 
-Lauren was a Biology major and member of the Honors College. She graduated in the Spring of 2021. 
+Lauren was a Biology major and member of the Honors College. She earned her BS degree and earned Department and College Honors in the Spring of 2021. Her [undergraduate honors thesis]( https://scholarsarchive.library.albany.edu/honorscollege_biology/71 ) focused on characterization of the *ATF3* promoter. 
