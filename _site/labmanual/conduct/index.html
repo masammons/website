@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="http://localhost:4000/feed.xml">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
     <link href="/css/style.css" rel="stylesheet" media="screen">
@@ -15,7 +15,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/images/albany-logo.png"/>
 
-	<!-- Typekit 
+	<!-- Typekit -->
 	<script>
 	  (function(d) {
 		var config = {
@@ -24,19 +24,10 @@
 		},
 		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 	  })(document);
-	</script> -->
+	</script>
 
-    <!-- Typekit
-    <script>
-  (function(d) {
-    var config = {
-      kitId: 'jze3jjx',
-      scriptTimeout: 3000
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script> -->
-    
+	
+	    
 	<!-- Google Analytics -->	
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,69 +44,56 @@
 	<script src="/js/jquery.min.js"></script>
 	
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-										
-				<!--	<object class="logo navbar-brand" data="/images/nuc.svg" type="image/svg+xml"></object> -->
-				    <a href="/"><img class="img-responsive logo navbar-brand" src="/images/nuc.png"></a>
-					
-                    <a class="navbar-brand" href="/">Sammons Lab</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-element">
-					<ul class="nav navbar-nav navbar-right">
+		<nav class="navbar navbar-expand-sm navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/nuc.svg">
+					sammons lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/research/">Research</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/team/">People</a>
-                        </li>
-						
-						<li>
-						
-						<a href="/papers/">Papers</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/news/">News</a>
+						<a class="mx-1" href="/research/">research</a>
 						</li>
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/links/">Links</a>
+						<a class="mx-1" href="/team/">team</a>
 						</li>
-<!--						
-						<li>
 						
-						<a href="/projects/">projects</a>
-                        </li>	  	  -->
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/news/">news</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/links/">links</a></li>
 					</ul>
 				</div>
 			</div>
-		</nav>	
+		</nav>
 	</div>
-	
-	<div class="container">	
-		
+
+	<div class="container mt-4">
+
 	
 
 <div class="blog-post">
@@ -147,35 +125,31 @@
 		<div class="col-md-10">	
 			
 			<div class="post">
-				<h3>You matter</h3>
+				<p>###You matter
+We cannot be as good as we all want to be if we dismiss, discount, or ignore each other. We can all contribute and our unique perspectives will help us be better scientists (and, theoretically, people!) This relates to the next principle…</p>
 
-<p>We cannot be as good as we all want to be if we dismiss, discount, or ignore each other. We can all contribute and our unique perspectives will help us be better scientists (and, theoretically, people!) This relates to the next principle...</p>
+<h3 id="discrimination-will-not-be-tolerated">Discrimination will not be tolerated</h3>
+<p>We will not have an environment that is discriminatory, racist, or sexist. We will not make comments (verbal or written) based on race, gender, identity, religion (or lack thereof), disability, age, or physical appearance. If you have any questions about what constitutes discriminatory actions or language, Morgan is more than willing to sit down and discuss.</p>
 
-<h3>Discrimination will not be tolerated</h3>
+<p>If you are the target of any of the above, please let Morgan know as soon as you feel comfortable doing so. You can also contact the university Title IX coordinator/officer for diversity and inclusion, <a href="mailto:tminor@albany.edu">Dr. Tamra Minor</a>. If Morgan is involved or you don’t feel comfortable talking with Morgan, you should contact Dr. Minor, Biology Department Chair Richard Cunningham, or Director of Graduate Programs Dr. Melinda Larsen (if you are a graduate student).</p>
 
-<p>We will not have an environment that is discriminatory, racist, or sexist. We will not make comments (verbal or written) based on race, gender, identity, religion (or lack thereof), disability, age, or physical appearance. If you have any questions about what constitutes discriminatory actions or language, Morgan is more than willing to sit down and discuss. </p>
+<p>###Your safety (and the safety of your colleagues) is non-negotiable. 
+There is an entire page of our lab manual devoted to <a href="/labmanual/biohazard">required safety training and best practices</a>. There are in-person training sessions related to chemical, biohazard, glass/sharps, and general lab safety. If you are not sure how to perform an experiment or handle certain tools, chemicals, equipment, please reach out to Morgan for help. We’ll make sure you’re safe, together.</p>
 
-<p>If you are the target of any of the above, please let Morgan know as soon as you feel comfortable doing so. You can also contact the university Title IX coordinator/officer for diversity and inclusion, <a href="mailto:tminor@albany.edu">Dr. Tamra Minor</a>. If Morgan is involved or you don&#39;t feel comfortable talking with Morgan, you should contact Dr. Minor, Biology Department Chair Richard Cunningham, or Director of Graduate Programs Dr. Melinda Larsen (if you are a graduate student).  </p>
+<p>The <a href="/labmanual/campus_resources/">Campus Information page</a> has contact information for the University Police, the University Title IX officer, Student Health Services, and Life Sciences building management.</p>
 
-<h3>Your safety (and the safety of your colleagues) is non-negotiable.</h3>
+<p>If there is an emergency or if something seems suspicious or dangerous, find a safe place and call the proper authorities (Morgan, Police, Plant Services, etc).</p>
 
-<p>There is an entire page of our lab manual devoted to <a href="/labmanual/biohazard">required safety training and best practices</a>. There are in-person training sessions related to chemical, biohazard, glass/sharps, and general lab safety. If you are not sure how to perform an experiment or handle certain tools, chemicals, equipment, please reach out to Morgan for help. We&#39;ll make sure you&#39;re safe, together. </p>
+<p>###Your present is as important as your future
+Almost all of us are here to build towards a better future by training and/or working in the sciences. It’s not always easy, but hard work is work worth doing. This is a fantastic opportunity to devote your time to your own development as a scientist and a person. You’ll have the chance to gain skills in the lab and skills that will help you every day, even outside of lab (like presenting, public speaking, and writing).</p>
 
-<p>The <a href="/labmanual/campus_resources/">Campus Information page</a> has contact information for the University Police, the University Title IX officer, Student Health Services, and Life Sciences building management. </p>
+<p>But you need to prioritize your own health and well being. Anyone who tells you graduate school or science is supposed to be about suffering is <strong>wrong</strong>. You will have to make some sacrifices with your time, but you should <strong>never</strong> make them if your well being and health are at stake.</p>
 
-<p>If there is an emergency or if something seems suspicious or dangerous, find a safe place and call the proper authorities (Morgan, Police, Plant Services, etc). </p>
+<p>###We all have responsibilities and priorities outside of the lab. 
+I have things I like to do outside of work. I have responsibilities outside of work. You probably do too. Don’t neglect your friends, family, or loved ones for the sake of working in the lab. But remember, this is still your job. You need to get your work done. Except for emergency situations, the expectation is that you will finish anything you start.</p>
 
-<h3>Your present is as important as your future</h3>
+<p>Planning to take a day off to run errands, got to the doctor, or just take a mental health day is fine (and encouraged). But taking a day off and not completing a 5 day experiment is not. Or celebrating a bit too much the night before and missing a meeting or class.</p>
 
-<p>Almost all of us are here to build towards a better future by training and/or working in the sciences. It&#39;s not always easy, but hard work is work worth doing. This is a fantastic opportunity to devote your time to your own development as a scientist and a person. You&#39;ll have the chance to gain skills in the lab and skills that will help you every day, even outside of lab (like presenting, public speaking, and writing). </p>
-
-<p>But you need to prioritize your own health and well being. Anyone who tells you graduate school or science is supposed to be about suffering is <strong>wrong</strong>. You will have to make some sacrifices with your time, but you should <strong>never</strong> make them if your well being and health are at stake. </p>
-
-<h3>We all have responsibilities and priorities outside of the lab.</h3>
-
-<p>I have things I like to do outside of work. I have responsibilities outside of work. You probably do too. Don&#39;t neglect your friends, family, or loved ones for the sake of working in the lab. But remember, this is still your job. You need to get your work done. Except for emergency situations, the expectation is that you will finish anything you start. </p>
-
-<p>Planning to take a day off to run errands, got to the doctor, or just take a mental health day is fine (and encouraged). But taking a day off and not completing a 5 day experiment is not. Or celebrating a bit too much the night before and missing a meeting or class. </p>
 
 			</div>	
 		</div>			
@@ -187,36 +161,10 @@
 
 </div>
 
-	
+
 	</div>
-	
-      <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a class="smallhead" href='http://albany.edu/biology'>Department of Biological Sciences</a></li>
-          <li><a class="smallhead" href='http://www.albany.edu'> State University of New York at Albany</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a class="smallhead" href='/misc/manual/'>Lab Manual</a></li>
-          <li><a class="smallhead" href='/misc/contact/'>Contact</a></li>
-          <li><a class="smallhead" href='/misc/join/'>Join</a></li>
-          <li><a class="smallhead" href='/misc/about/'>Credit</a><li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
- 
+
 	<div id="footer"><span style="display:none">foo</span></div>
-		
+
 </body>
 </html>

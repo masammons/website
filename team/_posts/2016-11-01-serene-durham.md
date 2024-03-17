@@ -12,7 +12,7 @@ Serene earned her bachelors degree at Bay Path University and defended her PhD d
 
 She was awarded an RNA Institute Fellowship for the 2018-2019 academic year. 
 
-Serene studies how multiple parallel stress response pathways converge and diverge at the level of transcription.  
+[Serene studied how multiple parallel stress response pathways converge and diverge at the level of transcription.](/pdfs/papers/2022-durham-dissertation.pdf)  
 
 
 **Fun Fact**: Serene is an identical twin, which allows her to do 2X the amount of work as a normal graduate student. 

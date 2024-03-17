@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="http://localhost:4000/feed.xml">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
     <link href="/css/style.css" rel="stylesheet" media="screen">
@@ -15,7 +15,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/images/albany-logo.png"/>
 
-	<!-- Typekit 
+	<!-- Typekit -->
 	<script>
 	  (function(d) {
 		var config = {
@@ -24,19 +24,10 @@
 		},
 		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 	  })(document);
-	</script> -->
+	</script>
 
-    <!-- Typekit
-    <script>
-  (function(d) {
-    var config = {
-      kitId: 'jze3jjx',
-      scriptTimeout: 3000
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script> -->
-    
+	
+	    
 	<!-- Google Analytics -->	
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,69 +44,56 @@
 	<script src="/js/jquery.min.js"></script>
 	
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-										
-				<!--	<object class="logo navbar-brand" data="/images/nuc.svg" type="image/svg+xml"></object> -->
-				    <a href="/"><img class="img-responsive logo navbar-brand" src="/images/nuc.png"></a>
-					
-                    <a class="navbar-brand" href="/">Sammons Lab</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-element">
-					<ul class="nav navbar-nav navbar-right">
+		<nav class="navbar navbar-expand-sm navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/nuc.svg">
+					sammons lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/research/">Research</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/team/">People</a>
-                        </li>
-						
-						<li>
-						
-						<a href="/papers/">Papers</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/news/">News</a>
+						<a class="mx-1" href="/research/">research</a>
 						</li>
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/links/">Links</a>
+						<a class="mx-1" href="/team/">team</a>
 						</li>
-<!--						
-						<li>
 						
-						<a href="/projects/">projects</a>
-                        </li>	  	  -->
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/news/">news</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/links/">links</a></li>
 					</ul>
 				</div>
 			</div>
-		</nav>	
+		</nav>
 	</div>
-	
-	<div class="container">	
-		
+
+	<div class="container mt-4">
+
 	
 
 <div class="blog-post">
@@ -147,56 +125,53 @@
 		<div class="col-md-10">	
 			
 			<div class="post">
-				<h4><em>Biohazard Waste</em></h4>
-
-<p>Biohazard waste is considered anything that touches a biological molecule. If it has touched any of these things, you need to properly dispose of it.</p>
+				<p>####<em>Biohazard Waste</em>
+Biohazard waste is considered anything that touches a biological molecule. If it has touched any of these things, you need to properly dispose of it.</p>
 
 <p>This includes, but is not limited to</p>
 
 <ul>
-<li>Nucleic acids</li>
-<li>Proteins</li>
-<li>Enzymes</li>
-<li>Tissue culture media/FBS</li>
+  <li>Nucleic acids</li>
+  <li>Proteins</li>
+  <li>Enzymes</li>
+  <li>Tissue culture media/FBS</li>
 </ul>
 
-<p>Red biohazard boxes are situated in the Tissue Culture room and in the main lab. These can be used to dispose of biohazard waste, <strong>except</strong> for biohazard sharps (razor blades, glass, etc). These should be disposed of in the appropriate hard, red plastic bins designated as sharps containters. There is 1 in Tissue Culture (under the centrifuge) and 1 in the main lab (next to the gel running station). </p>
+<p>Red biohazard boxes are situated in the Tissue Culture room and in the main lab. These can be used to dispose of biohazard waste, <strong>except</strong> for biohazard sharps (razor blades, glass, etc). These should be disposed of in the appropriate hard, red plastic bins designated as sharps containters. There is 1 in Tissue Culture (under the centrifuge) and 1 in the main lab (next to the gel running station).</p>
 
-<p>Red biohazard bags are found under the sink in the main lab or can be obtained by asking Dane Cellupica at the Life Sciences Loading Dock. </p>
+<p>Red biohazard bags are found under the sink in the main lab or can be obtained by asking Dane Cellupica at the Life Sciences Loading Dock.</p>
 
-<p>New biohazard boxes can be <strong>obtained</strong> and filled biohazard boxes can be <strong>removed</strong> by speaking with Dane Cellupica at the Life Sciences Loading Dock. He does not pick up or deliver, so you&#39;ll have to contact him to arrange either a drop off of filled boxes or a pickup of new boxes. It&#39;s usually best to do this at the same time!!!</p>
+<p>New biohazard boxes can be <strong>obtained</strong> and filled biohazard boxes can be <strong>removed</strong> by speaking with Dane Cellupica at the Life Sciences Loading Dock. He does not pick up or deliver, so you’ll have to contact him to arrange either a drop off of filled boxes or a pickup of new boxes. It’s usually best to do this at the same time!!!</p>
 
-<hr>
+<hr />
 
-<h4><em>Chemical Waste</em></h4>
+<p>####<em>Chemical Waste</em>
+We are primarily concerned with the disposal of alcohols and other organic materials (phenol, chloroform, etc). Each of these items has a liquid waste disposal container in the fume hood. The lids must be kept on these at all time. Do not vent these into the atmosphere or into the fume hood!</p>
 
-<p>We are primarily concerned with the disposal of alcohols and other organic materials (phenol, chloroform, etc). Each of these items has a liquid waste disposal container in the fume hood. The lids must be kept on these at all time. Do not vent these into the atmosphere or into the fume hood!</p>
+<p>When these are approximately 3/4 full, please contact Morgan and he will call for disposal.</p>
 
-<p>When these are approximately 3/4 full, please contact Morgan and he will call for disposal. </p>
+<p>For plastic or glass items that contact phenol and/or chloroform (like centifuge tubes or phase-lock tubes), please dispose in the blue plastic bin in the fume hood (labeled Hazardous Waste - Phenol plastics) or next to the fume hood. Do not put these in the normal biohazard bin.</p>
 
-<p>For plastic or glass items that contact phenol and/or chloroform (like centifuge tubes or phase-lock tubes), please dispose in the blue plastic bin in the fume hood (labeled Hazardous Waste - Phenol plastics) or next to the fume hood. Do not put these in the normal biohazard bin. </p>
+<hr />
 
-<hr>
+<p>####<em>Sharps Waste</em>
+These should be disposed of in the appropriate hard, red plastic bins designated as sharps containters. There is 1 in Tissue Culture (under the centrifuge) and 1 in the main lab (next to the gel running station).</p>
 
-<h4><em>Sharps Waste</em></h4>
+<p>When these are approximately 3/4 full, please contact Morgan and he will call for disposal.</p>
 
-<p>These should be disposed of in the appropriate hard, red plastic bins designated as sharps containters. There is 1 in Tissue Culture (under the centrifuge) and 1 in the main lab (next to the gel running station). </p>
+<hr />
 
-<p>When these are approximately 3/4 full, please contact Morgan and he will call for disposal. </p>
+<p>####<em>Glass Waste</em>
+Broken or damaged glass needs to be disposed of in the broken glass box (in the main lab). <strong>Do not place your hands or any other body part into the broken glass box</strong>. You might be tempted to do this to fit extra waste. Don’t do it!</p>
 
-<hr>
+<p>When these are approximately 3/4 full, please contact Morgan and he will call for disposal.</p>
 
-<h4><em>Glass Waste</em></h4>
+<hr />
 
-<p>Broken or damaged glass needs to be disposed of in the broken glass box (in the main lab). <strong>Do not place your hands or any other body part into the broken glass box</strong>. You might be tempted to do this to fit extra waste. Don&#39;t do it! </p>
+<p>As a reminder, <a href="https://www.albany.edu/ehs/">The University at Albany Department of Environmental Health and Safety</a> has in-person training every few months for biohazard and general lab safety.</p>
 
-<p>When these are approximately 3/4 full, please contact Morgan and he will call for disposal. </p>
+<p>If you have any additional questions or concerns, you can contact EHS, ask Morgan, or look online at the <a href="https://www.albany.edu/ehs/laboratorysafety.shtml">EHS website</a>.</p>
 
-<hr>
-
-<p>As a reminder, <a href="https://www.albany.edu/ehs/">The University at Albany Department of Environmental Health and Safety</a> has in-person training every few months for biohazard and general lab safety. </p>
-
-<p>If you have any additional questions or concerns, you can contact EHS, ask Morgan, or look online at the <a href="https://www.albany.edu/ehs/laboratorysafety.shtml">EHS website</a>. </p>
 
 			</div>	
 		</div>			
@@ -208,36 +183,10 @@
 
 </div>
 
-	
+
 	</div>
-	
-      <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a class="smallhead" href='http://albany.edu/biology'>Department of Biological Sciences</a></li>
-          <li><a class="smallhead" href='http://www.albany.edu'> State University of New York at Albany</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a class="smallhead" href='/misc/manual/'>Lab Manual</a></li>
-          <li><a class="smallhead" href='/misc/contact/'>Contact</a></li>
-          <li><a class="smallhead" href='/misc/join/'>Join</a></li>
-          <li><a class="smallhead" href='/misc/about/'>Credit</a><li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
- 
+
 	<div id="footer"><span style="display:none">foo</span></div>
-		
+
 </body>
 </html>

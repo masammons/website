@@ -8,4 +8,4 @@ image: /images/team/baniulyte_june2021.jpg
 alumni: false
 ---
 
-Gabriele (Gaby) Baniulyte is a postdoctoral fellow in the Sammons Lab. She did her UG and MS at xxx and her PhD with Joe Wade in the Department of Biomedical Sciences. 
+Gabriele (Gaby) Baniulyte is a postdoctoral fellow in the Sammons Lab. She performed PhD work with Joe Wade in the Department of Biomedical Sciences. 

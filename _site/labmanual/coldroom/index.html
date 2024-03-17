@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="http://localhost:4000/feed.xml">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
     <link href="/css/style.css" rel="stylesheet" media="screen">
@@ -15,7 +15,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/images/albany-logo.png"/>
 
-	<!-- Typekit 
+	<!-- Typekit -->
 	<script>
 	  (function(d) {
 		var config = {
@@ -24,19 +24,10 @@
 		},
 		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 	  })(document);
-	</script> -->
+	</script>
 
-    <!-- Typekit
-    <script>
-  (function(d) {
-    var config = {
-      kitId: 'jze3jjx',
-      scriptTimeout: 3000
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script> -->
-    
+	
+	    
 	<!-- Google Analytics -->	
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,69 +44,56 @@
 	<script src="/js/jquery.min.js"></script>
 	
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-										
-				<!--	<object class="logo navbar-brand" data="/images/nuc.svg" type="image/svg+xml"></object> -->
-				    <a href="/"><img class="img-responsive logo navbar-brand" src="/images/nuc.png"></a>
-					
-                    <a class="navbar-brand" href="/">Sammons Lab</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-element">
-					<ul class="nav navbar-nav navbar-right">
+		<nav class="navbar navbar-expand-sm navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/nuc.svg">
+					sammons lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/research/">Research</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/team/">People</a>
-                        </li>
-						
-						<li>
-						
-						<a href="/papers/">Papers</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/news/">News</a>
+						<a class="mx-1" href="/research/">research</a>
 						</li>
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/links/">Links</a>
+						<a class="mx-1" href="/team/">team</a>
 						</li>
-<!--						
-						<li>
 						
-						<a href="/projects/">projects</a>
-                        </li>	  	  -->
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/news/">news</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/links/">links</a></li>
 					</ul>
 				</div>
 			</div>
-		</nav>	
+		</nav>
 	</div>
-	
-	<div class="container">	
-		
+
+	<div class="container mt-4">
+
 	
 
 <div class="blog-post">
@@ -147,39 +125,59 @@
 		<div class="col-md-10">	
 			
 			<div class="post">
-				<h4>Cold Room Information and Etiquette</h4>
+				<p>####Cold Room Information and Etiquette
+We have access to a constant 4˚C cold room in the Life Sciences Building. It is right outside the Dias Laboratory down the hall from us (towards the building exit).</p>
 
-<p>We have access to a constant 4˚C cold room in the Life Sciences Building. It is right outside the Dias Laboratory down the hall from us (towards the building exit). </p>
+<p>We share this space with the Pande and Wang labs, so we need to be good lab neighbors and use the space in an equitable and considerate manner. It shouldn’t have to be said, but <strong>Do not touch or disturb an other lab’s experiments or reagents</strong></p>
 
-<p>We share this space with the Pande and Wang labs, so we need to be good lab neighbors and use the space in an equitable and considerate manner. It shouldn&#39;t have to be said, but <strong>Do not touch or disturb an other lab&#39;s experiments or reagents</strong></p>
+<p>Our space is on the right hand side immediately as you enter the door. There are two shelves above the bench and some shelves below for our things. We also have half the bench (the right side) to work.</p>
 
-<p>Our space is on the right hand side immediately as you enter the door. There are two shelves above the bench and some shelves below for our things. We also have half the bench (the right side) to work. </p>
+<p>There is also a common table on the left that should only be used when actively working and should not be used for storage. Basically, use it and then clean up.</p>
 
-<p>There is also a common table on the left that should only be used when actively working and should not be used for storage. Basically, use it and then clean up. </p>
+<p>####Cold Room Storage</p>
 
-<h4>Cold Room Storage</h4>
-
-<p>We keep bacterial-related items and other types of reagents in the cold room. This includes prepared LB agar plates and your own personal LB agar plates. </p>
+<p>We keep bacterial-related items and other types of reagents in the cold room. This includes prepared LB agar plates and your own personal LB agar plates.</p>
 
 <p><strong>Rules</strong></p>
 
 <ol>
-<li><p>All plates need to be stored in a clear plastic box lid. </p></li>
-<li><p>Plates should be parafilmed and labeled with the date, your name, and information about the plate. </p></li>
-<li><p>Remember that you shouldn&#39;t store bacterial plates forever, so audit your plate storage at least 1X per month and throw out anything you no longer need. </p></li>
-<li><p>If you need an additional box, let Morgan know. </p></li>
-<li><p>Do not store any human tissue culture media or tissue culture items in the cold room!</p></li>
-<li><p>Other items like experimental buffers and such that need to be kept cold should be properly labeled with dates, names, contents, etc. </p></li>
+  <li>
+    <p>All plates need to be stored in a clear plastic box lid.</p>
+  </li>
+  <li>
+    <p>Plates should be parafilmed and labeled with the date, your name, and information about the plate.</p>
+  </li>
+  <li>
+    <p>Remember that you shouldn’t store bacterial plates forever, so audit your plate storage at least 1X per month and throw out anything you no longer need.</p>
+  </li>
+  <li>
+    <p>If you need an additional box, let Morgan know.</p>
+  </li>
+  <li>
+    <p>Do not store any human tissue culture media or tissue culture items in the cold room!</p>
+  </li>
+  <li>
+    <p>Other items like experimental buffers and such that need to be kept cold should be properly labeled with dates, names, contents, etc.</p>
+  </li>
 </ol>
 
-<h4>Cold Room Use</h4>
+<p>####Cold Room Use</p>
 
 <ol>
-<li><p>We have a shaker in the cold room used primarily for western blots. Be sure to turn it off when not in use. </p></li>
-<li><p>We have one rotator for 1.5mL/15mL/50mL tubes that can be used in either the cold room or in the main lab. Remove it from the cold room when not in use. When in use, be sure that you set it up for &quot;infinite&quot; time such that your samples don&#39;t stop rotating after a certain period of time. </p></li>
-<li><p>Clean up after yourself!</p></li>
-<li><p><strong>Absolutely no dry ice in the cold room</strong></p></li>
+  <li>
+    <p>We have a shaker in the cold room used primarily for western blots. Be sure to turn it off when not in use.</p>
+  </li>
+  <li>
+    <p>We have one rotator for 1.5mL/15mL/50mL tubes that can be used in either the cold room or in the main lab. Remove it from the cold room when not in use. When in use, be sure that you set it up for “infinite” time such that your samples don’t stop rotating after a certain period of time.</p>
+  </li>
+  <li>
+    <p>Clean up after yourself!</p>
+  </li>
+  <li>
+    <p><strong>Absolutely no dry ice in the cold room</strong></p>
+  </li>
 </ol>
+
 
 			</div>	
 		</div>			
@@ -191,36 +189,10 @@
 
 </div>
 
-	
+
 	</div>
-	
-      <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a class="smallhead" href='http://albany.edu/biology'>Department of Biological Sciences</a></li>
-          <li><a class="smallhead" href='http://www.albany.edu'> State University of New York at Albany</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a class="smallhead" href='/misc/manual/'>Lab Manual</a></li>
-          <li><a class="smallhead" href='/misc/contact/'>Contact</a></li>
-          <li><a class="smallhead" href='/misc/join/'>Join</a></li>
-          <li><a class="smallhead" href='/misc/about/'>Credit</a><li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
- 
+
 	<div id="footer"><span style="display:none">foo</span></div>
-		
+
 </body>
 </html>

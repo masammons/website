@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="http://localhost:4000/feed.xml">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
     <link href="/css/style.css" rel="stylesheet" media="screen">
@@ -15,7 +15,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/images/albany-logo.png"/>
 
-	<!-- Typekit 
+	<!-- Typekit -->
 	<script>
 	  (function(d) {
 		var config = {
@@ -24,19 +24,10 @@
 		},
 		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 	  })(document);
-	</script> -->
+	</script>
 
-    <!-- Typekit
-    <script>
-  (function(d) {
-    var config = {
-      kitId: 'jze3jjx',
-      scriptTimeout: 3000
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script> -->
-    
+	
+	    
 	<!-- Google Analytics -->	
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,69 +44,56 @@
 	<script src="/js/jquery.min.js"></script>
 	
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-										
-				<!--	<object class="logo navbar-brand" data="/images/nuc.svg" type="image/svg+xml"></object> -->
-				    <a href="/"><img class="img-responsive logo navbar-brand" src="/images/nuc.png"></a>
-					
-                    <a class="navbar-brand" href="/">Sammons Lab</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-element">
-					<ul class="nav navbar-nav navbar-right">
+		<nav class="navbar navbar-expand-sm navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/nuc.svg">
+					sammons lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/research/">Research</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/team/">People</a>
-                        </li>
-						
-						<li>
-						
-						<a href="/papers/">Papers</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/news/">News</a>
+						<a class="mx-1" href="/research/">research</a>
 						</li>
 						
-						<li class="active">
+						<li class="nav-link">
 						
-						<a href="/links/">Links</a>
+						<a class="mx-1" href="/team/">team</a>
 						</li>
-<!--						
-						<li>
 						
-						<a href="/projects/">projects</a>
-                        </li>	  	  -->
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/news/">news</a></li>
+						
+						<li class="nav-link active">
+						
+						<a class="mx-1" href="/links/">links</a></li>
 					</ul>
 				</div>
 			</div>
-		</nav>	
+		</nav>
 	</div>
-	
-	<div class="container">	
-		
+
+	<div class="container mt-4">
+
 	
 
 <div class="blog-post">
@@ -147,110 +125,102 @@
 		<div class="col-md-10">	
 			
 			<div class="post">
-				<h3>Information for ABIO681 - Spring 2019</h3>
+				<h3 id="information-for-abio681---spring-2019">Information for ABIO681 - Spring 2019</h3>
 
 <p><a href="/pdfs/bio681/ABIO681_MCDNSeminar_GenomescaleBio_Spring2019_Sammons.pdf">Syllabus</a></p>
 
-<hr>
+<hr />
 
-<p><a href="/pdfs/bio681/Casadevall_and_Fang_2009.pdf">Reading due 02/05</a>
- : Casadevall and Fang 2009</p>
+<dl>
+  <dt><a href="/pdfs/bio681/Casadevall_and_Fang_2009.pdf">Reading due 02/05</a></dt>
+  <dd>Casadevall and Fang 2009</dd>
+</dl>
 
-<hr>
+<hr />
 
-<table><thead>
-<tr>
-<th><strong>Presentation Date</strong></th>
-<th><strong>Paper</strong></th>
-<th><strong>Presenters</strong></th>
-</tr>
-</thead><tbody>
-<tr>
-<td>12-Feb</td>
-<td><a href="/pdfs/bio681/Fields_and_Song_1989.pdf">Fields and Song 1989</a></td>
-<td>McCauley/Altreith</td>
-</tr>
-<tr>
-<td>19-Feb</td>
-<td><a href="/pdfs/bio681/Wang_1993.pdf">Wang 1993</a> and <a href="/pdfs/bio681/Wilson_1991.pdf">Wilson 1991</a></td>
-<td>Lin/Catizone</td>
-</tr>
-<tr>
-<td>26-Feb</td>
-<td><a href="/pdfs/bio681/DeRisi_1996.pdf">DeRisi et al 1996</a></td>
-<td>Koslow/McCarthy</td>
-</tr>
-<tr>
-<td>5-Mar</td>
-<td><a href="/pdfs/bio681/Burns_1994.pdf">Burns et al 1994</a> and <a href="/pdfs/bio681/Giaever_2002.pdf">Giaever et al 2002</a></td>
-<td>O&#39;Keefe/Martin</td>
-</tr>
-<tr>
-<td>12-Mar</td>
-<td><a href="/pdfs/bio681/Krogan_2006.pdf">Krogan et al 2006</a></td>
-<td>Soyer/Sammons</td>
-</tr>
-<tr>
-<td>26-Mar</td>
-<td><a href="/pdfs/bio681/Bentley_2008.pdf">Bentley et al 2008</a></td>
-<td>Durham/Naik</td>
-</tr>
-<tr>
-<td>9-Apr</td>
-<td><a href="/pdfs/bio681/Ren_2000.pdf">Ren et al 2000</a> and <a href="/pdfs/bio681/Johnson_2007.pdf">Johnson et al 2007</a></td>
-<td>Waldern/Moskwa</td>
-</tr>
-</tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th><strong>Presentation Date</strong></th>
+      <th><strong>Paper</strong></th>
+      <th><strong>Presenters</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12-Feb</td>
+      <td><a href="/pdfs/bio681/Fields_and_Song_1989.pdf">Fields and Song 1989</a></td>
+      <td>McCauley/Altreith</td>
+    </tr>
+    <tr>
+      <td>19-Feb</td>
+      <td><a href="/pdfs/bio681/Wang_1993.pdf">Wang 1993</a> and <a href="/pdfs/bio681/Wilson_1991.pdf">Wilson 1991</a></td>
+      <td>Lin/Catizone</td>
+    </tr>
+    <tr>
+      <td>26-Feb</td>
+      <td><a href="/pdfs/bio681/DeRisi_1996.pdf">DeRisi et al 1996</a></td>
+      <td>Koslow/McCarthy</td>
+    </tr>
+    <tr>
+      <td>5-Mar</td>
+      <td><a href="/pdfs/bio681/Burns_1994.pdf">Burns et al 1994</a> and <a href="/pdfs/bio681/Giaever_2002.pdf">Giaever et al 2002</a></td>
+      <td>O’Keefe/Martin</td>
+    </tr>
+    <tr>
+      <td>12-Mar</td>
+      <td><a href="/pdfs/bio681/Krogan_2006.pdf">Krogan et al 2006</a></td>
+      <td>Soyer/Sammons</td>
+    </tr>
+    <tr>
+      <td>26-Mar</td>
+      <td><a href="/pdfs/bio681/Bentley_2008.pdf">Bentley et al 2008</a></td>
+      <td>Durham/Naik</td>
+    </tr>
+    <tr>
+      <td>9-Apr</td>
+      <td><a href="/pdfs/bio681/Ren_2000.pdf">Ren et al 2000</a> and <a href="/pdfs/bio681/Johnson_2007.pdf">Johnson et al 2007</a></td>
+      <td>Waldern/Moskwa</td>
+    </tr>
+  </tbody>
+</table>
 
-<hr>
+<hr />
+<p>| <strong>Presentation Date</strong> | <strong>Paper</strong> | <strong>Authors</strong> | <strong>Reviewers</strong> |
+|———————–|———–|————-|—————|
+|16-Apr	|	<a href="/pdfs/bio681/Barski_2007.pdf">Barski et al 2007</a>|O’Keefe/Naik|	Moskwa/McCarthy|
+|23-Apr|	<a href="/pdfs/bio681/Korthout_2018.pdf">Korthout et al 2018</a>	 |Altreith/Martin|	Durham/Waldern|</p>
 
-<table><thead>
-<tr>
-<th><strong>Presentation Date</strong></th>
-<th><strong>Paper</strong></th>
-<th><strong>Authors</strong></th>
-<th><strong>Reviewers</strong></th>
-</tr>
-</thead><tbody>
-<tr>
-<td>16-Apr</td>
-<td><a href="/pdfs/bio681/Barski_2007.pdf">Barski et al 2007</a></td>
-<td>O&#39;Keefe/Naik</td>
-<td>Moskwa/McCarthy</td>
-</tr>
-<tr>
-<td>23-Apr</td>
-<td><a href="/pdfs/bio681/Korthout_2018.pdf">Korthout et al 2018</a></td>
-<td>Altreith/Martin</td>
-<td>Durham/Waldern</td>
-</tr>
-</tbody></table>
+<hr />
 
-<hr>
+<dl>
+  <dt><a href="/pdfs/bio681/Casadevall_and_Fang_2014.pdf">Reading due 04/30 #1</a></dt>
+  <dd>Casadevall and Fang 2014</dd>
+  <dt><a href="/pdfs/bio681/Berg_2016.pdf">Reading due 04/30 #2</a></dt>
+  <dd>Berg 2016</dd>
+</dl>
 
-<p><a href="/pdfs/bio681/Casadevall_and_Fang_2014.pdf">Reading due 04/30 #1</a>
-: Casadevall and Fang 2014</p>
+<hr />
 
-<p><a href="/pdfs/bio681/Berg_2016.pdf">Reading due 04/30 #2</a>
-: Berg 2016</p>
+<table>
+  <thead>
+    <tr>
+      <th><strong>Presentation Date</strong></th>
+      <th><strong>Paper</strong></th>
+      <th><strong>Authors</strong></th>
+      <th><strong>Reviewers</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7-May</td>
+      <td><a href="/pdfs/bio681/Lee_2018.pdf">Lee et al 2019</a></td>
+      <td>McCauley/Catizone</td>
+      <td>Koslow/Lin</td>
+    </tr>
+  </tbody>
+</table>
 
-<hr>
-
-<table><thead>
-<tr>
-<th><strong>Presentation Date</strong></th>
-<th><strong>Paper</strong></th>
-<th><strong>Authors</strong></th>
-<th><strong>Reviewers</strong></th>
-</tr>
-</thead><tbody>
-<tr>
-<td>7-May</td>
-<td><a href="/pdfs/bio681/Lee_2018.pdf">Lee et al 2019</a></td>
-<td>McCauley/Catizone</td>
-<td>Koslow/Lin</td>
-</tr>
-</tbody></table>
 
 			</div>	
 		</div>			
@@ -262,36 +232,10 @@
 
 </div>
 
-	
+
 	</div>
-	
-      <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a class="smallhead" href='http://albany.edu/biology'>Department of Biological Sciences</a></li>
-          <li><a class="smallhead" href='http://www.albany.edu'> State University of New York at Albany</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a class="smallhead" href='/misc/manual/'>Lab Manual</a></li>
-          <li><a class="smallhead" href='/misc/contact/'>Contact</a></li>
-          <li><a class="smallhead" href='/misc/join/'>Join</a></li>
-          <li><a class="smallhead" href='/misc/about/'>Credit</a><li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
- 
+
 	<div id="footer"><span style="display:none">foo</span></div>
-		
+
 </body>
 </html>

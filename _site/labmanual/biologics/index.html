@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="http://localhost:4000/feed.xml">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
     <link href="/css/style.css" rel="stylesheet" media="screen">
@@ -15,7 +15,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/images/albany-logo.png"/>
 
-	<!-- Typekit 
+	<!-- Typekit -->
 	<script>
 	  (function(d) {
 		var config = {
@@ -24,19 +24,10 @@
 		},
 		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 	  })(document);
-	</script> -->
+	</script>
 
-    <!-- Typekit
-    <script>
-  (function(d) {
-    var config = {
-      kitId: 'jze3jjx',
-      scriptTimeout: 3000
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script> -->
-    
+	
+	    
 	<!-- Google Analytics -->	
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,69 +44,56 @@
 	<script src="/js/jquery.min.js"></script>
 	
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-										
-				<!--	<object class="logo navbar-brand" data="/images/nuc.svg" type="image/svg+xml"></object> -->
-				    <a href="/"><img class="img-responsive logo navbar-brand" src="/images/nuc.png"></a>
-					
-                    <a class="navbar-brand" href="/">Sammons Lab</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-element">
-					<ul class="nav navbar-nav navbar-right">
+		<nav class="navbar navbar-expand-sm navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/nuc.svg">
+					sammons lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/research/">Research</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/team/">People</a>
-                        </li>
-						
-						<li>
-						
-						<a href="/papers/">Papers</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/news/">News</a>
+						<a class="mx-1" href="/research/">research</a>
 						</li>
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/links/">Links</a>
+						<a class="mx-1" href="/team/">team</a>
 						</li>
-<!--						
-						<li>
 						
-						<a href="/projects/">projects</a>
-                        </li>	  	  -->
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/news/">news</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/links/">links</a></li>
 					</ul>
 				</div>
 			</div>
-		</nav>	
+		</nav>
 	</div>
-	
-	<div class="container">	
-		
+
+	<div class="container mt-4">
+
 	
 
 <div class="blog-post">
@@ -147,79 +125,77 @@
 		<div class="col-md-10">	
 			
 			<div class="post">
-				<h2>Cryostorage for cell lines</h2>
+				<p>##Cryostorage for cell lines</p>
 
-<p>This is one of the most important jobs you&#39;ll do while you&#39;re here: keeping track of and preserving your mammalian cell lines. </p>
+<p>This is one of the most important jobs you’ll do while you’re here: keeping track of and preserving your mammalian cell lines.</p>
 
-<p>Like everything else, we have a Cryostorage spreadsheet (link found in the &quot;Organization&quot; channel of the lab Slack account). It is vital that you <strong>accurately</strong> describe the contents of a given tube on the spreadsheet. Include as much information as you can. </p>
+<p>Like everything else, we have a Cryostorage spreadsheet (link found in the “Organization” channel of the lab Slack account). It is vital that you <strong>accurately</strong> describe the contents of a given tube on the spreadsheet. Include as much information as you can.</p>
 
-<p>You should also include information about the LN2 tank, tower number, and slot where your cells are stored. </p>
+<p>You should also include information about the LN2 tank, tower number, and slot where your cells are stored.</p>
 
-<p><em><em>Please do not store any cells beyond the 6 slot from the top</em></em>. The LN2 autofiller will often submerge the bottom few boxes in liquid nitrogen which can cause tubes to explode when thawing.</p>
+<p><em>_Please do not store any cells beyond the 6 slot from the top_</em>. The LN2 autofiller will often submerge the bottom few boxes in liquid nitrogen which can cause tubes to explode when thawing.</p>
 
-<p>If you cannot find room for a new box, please let <a href="/team/morgan-sammons">Morgan</a> know and he&#39;ll work with the LN2 facility to get more room for the lab. Cells can be <strong>temporarily</strong> stored at -80˚C under these circumstances. </p>
+<p>If you cannot find room for a new box, please let <a href="/team/morgan-sammons">Morgan</a> know and he’ll work with the LN2 facility to get more room for the lab. Cells can be <strong>temporarily</strong> stored at -80˚C under these circumstances.</p>
 
-<p><img src="/images/misc/labmanual/cryo.png" alt=""></p>
+<p><img src="/images/misc/labmanual/cryo.png" alt="" /></p>
 
 <p>When you add a new cell line, put it on the spread sheet!!!</p>
 
 <p>When you remove a cell line to thaw it, remove it from the spreadsheet!!!</p>
 
-<h2>Plasmids</h2>
+<p>##Plasmids
+We keep track of our plasmids using Google Sheets, a link to which can be found in the lab Slack “Organization” channel. If you need to be invited to either Slack or the Organization channel, please let <a href="/team/morgan-sammons">Morgan</a> know and he’ll help out.</p>
 
-<p>We keep track of our plasmids using Google Sheets, a link to which can be found in the lab Slack &quot;Organization&quot; channel. If you need to be invited to either Slack or the Organization channel, please let <a href="/team/morgan-sammons">Morgan</a> know and he&#39;ll help out. </p>
+<p>When you make a plasmid, add it to the plasmid archive spreadsheet and include all of the information on the document. If there is no information for that particular plasmid (for example, in the Addgene column), put NA.</p>
 
-<p>When you make a plasmid, add it to the plasmid archive spreadsheet and include all of the information on the document. If there is no information for that particular plasmid (for example, in the Addgene column), put NA. </p>
+<p><img src="/images/misc/labmanual/plasmid_archive.png" alt="" /></p>
 
-<p><img src="/images/misc/labmanual/plasmid_archive.png" alt=""></p>
+<p>The first column of the spreadsheet is the Plasmid Identifier number, which is sequentially numbered. When you add something, generate the Plasmid Identifier by looking at what the last number is in the spreadsheet and give your plasmid the next number. It’s that easy! (Actually, it’s easier, Google Sheets will autogenerate the sequential numbers if you drag down from the previous cell).</p>
 
-<p>The first column of the spreadsheet is the Plasmid Identifier number, which is sequentially numbered. When you add something, generate the Plasmid Identifier by looking at what the last number is in the spreadsheet and give your plasmid the next number. It&#39;s that easy! (Actually, it&#39;s easier, Google Sheets will autogenerate the sequential numbers if you drag down from the previous cell). </p>
+<p>Plasmids will be kept in your own personal archive and stored at -20˚C for long term storage. Keep a separate box/boxes for your plasmids. This will help everyone now and in the future.</p>
 
-<p>Plasmids will be kept in your own personal archive and stored at -20˚C for long term storage. Keep a separate box/boxes for your plasmids. This will help everyone now and in the future. </p>
+<p>You <strong>need to</strong> keep track of the contents of this archive such that all lab members can see what reagents we have available. All plasmids <strong>must</strong> be sequence verified before adding to the plasmid archive spreadsheet and (obviously) before they are used in any subsequent experiments.</p>
 
-<p>You <strong>need to</strong> keep track of the contents of this archive such that all lab members can see what reagents we have available. All plasmids <strong>must</strong> be sequence verified before adding to the plasmid archive spreadsheet and (obviously) before they are used in any subsequent experiments. </p>
-
-<h3><em>Snapgene and plasmid maps</em></h3>
-
-<p>Every plasmid we create, obtain from Addgene, purchase, or get from another lab <strong>must</strong> have an associated <a href="www.snapgene.com">Snapgene</a> file/plasmid map if practical. If we make it or purchase it, this shouldn&#39;t be an issue. You may have to work at it, but it is going to be better for you now and in the future. It&#39;ll also help your lab mates and any future lab members who might want that information. The Snapgene <a href="www.snapgene.com/resources/plasmid-files/">website</a> has a number of common plasmid backbones already annotated and ready to download (things like pcDNA3.1, pgL4.24, pUC18, etc). <a href="www.adgene.com">Addgene</a> also has Snapgene-style plasmid maps available to download for almost all of their plasmids, meaning it should be very straightforward to modify them to include your changes. </p>
+<p>###<em>Snapgene and plasmid maps</em>
+Every plasmid we create, obtain from Addgene, purchase, or get from another lab <strong>must</strong> have an associated <a href="www.snapgene.com">Snapgene</a> file/plasmid map if practical. If we make it or purchase it, this shouldn’t be an issue. You may have to work at it, but it is going to be better for you now and in the future. It’ll also help your lab mates and any future lab members who might want that information. The Snapgene <a href="www.snapgene.com/resources/plasmid-files/">website</a> has a number of common plasmid backbones already annotated and ready to download (things like pcDNA3.1, pgL4.24, pUC18, etc). <a href="www.adgene.com">Addgene</a> also has Snapgene-style plasmid maps available to download for almost all of their plasmids, meaning it should be very straightforward to modify them to include your changes.</p>
 
 <p>Make your plasmid maps using Snapgene and annotate as best you can. Snapgene will automatically annotate common features (CMV promoter, primer binding sites, etc) but you should annotate anything that is novel or specific to just that plasmid. Primers used for cloning, PCR, etc should also be added to the plasmid map using Snapgene (and of course should be in the <a href="/misc/labmanual/ordering">oligo spreadsheet</a>).</p>
 
-<p>After you make your Snapgene/plasmid map, you need to add that file to the repository (found in the <em>plasmid_repository</em> folder on Desktop of <strong><em>quark</em></strong>). </p>
+<p>After you make your Snapgene/plasmid map, you need to add that file to the repository (found in the <em>plasmid_repository</em> folder on Desktop of <strong><em>quark</em></strong>).</p>
 
-<p>When adding the Snapgene file to the repository, please rename the file to match the Plasmid Identifier number so future you (or current Morgan) doesn&#39;t have to try to decode whatever naming convention you use for yourself. </p>
-
-<blockquote>
-<p>pS_1.dna</p>
-</blockquote>
-
-<p>If the plasmid comes from another group and they send an old map picture or just give you written information about the plasmid, include as much information in the description field as you can that would help us in the future. </p>
-
-<p>An example would be saying </p>
+<p>When adding the Snapgene file to the repository, please rename the file to match the Plasmid Identifier number so future you (or current Morgan) doesn’t have to try to decode whatever naming convention you use for yourself.</p>
 
 <blockquote>
-<p><em>&quot;open reading frame inserted into the multiple cloning site of pUC18 between the NotI and XbaI restriction sites.&quot;</em></p>
+  <p>pS_1.dna</p>
 </blockquote>
 
-<h2>Oligos</h2>
+<p>If the plasmid comes from another group and they send an old map picture or just give you written information about the plasmid, include as much information in the description field as you can that would help us in the future.</p>
 
-<p>This section covers what to do when you order and receive non-renewable DNA or RNA oligonucleotides. Please see the <a href="/images/misc/labmanual/ordering">Ordering</a> page for information on ordering of DNA and RNA oligos. </p>
+<p>An example would be saying</p>
 
-<p>If you receive oligos from IDT in single tube format (blue caps), add the oligo identifier number to the cap (format: <em>SLXXXXX</em>) In most cases, you&#39;ll be resuspending the oligo at a concentration of 100 micromolar. Note on the tube if you changed this for any reason; if not, we&#39;ll all assume it is 100 micromolar. </p>
+<blockquote>
+  <p><em>“open reading frame inserted into the multiple cloning site of pUC18 between the NotI and XbaI restriction sites.”</em></p>
+</blockquote>
 
-<p>If you received oligos in a plate, resuspend to the appropriate concentration and place in a microcentrifuge tube and write the Oligo Identifier number and molarity on both the cap and the side of the tube. It is key that we do this, since we won&#39;t have the IDT label to use as a crutch. </p>
+<p>##Oligos
+This section covers what to do when you order and receive non-renewable DNA or RNA oligonucleotides. Please see the <a href="/images/misc/labmanual/ordering">Ordering</a> page for information on ordering of DNA and RNA oligos.</p>
 
-<p>Oligo Identifier, sequences, and information about the oligo should already be in the Oligo Spreadsheet (link in the &quot;Organization&quot; channel of the lab Slack account). Make yourself a working stock of oligo, and put the long-term stock in the oligo boxes in the common -20˚C freezer. The boxes are labeled numerically based on the Oligo Identifier, so put it in the right box!!!</p>
+<p>If you receive oligos from IDT in single tube format (blue caps), add the oligo identifier number to the cap (format: <em>SLXXXXX</em>) In most cases, you’ll be resuspending the oligo at a concentration of 100 micromolar. Note on the tube if you changed this for any reason; if not, we’ll all assume it is 100 micromolar.</p>
 
-<h2>Antibodies</h2>
+<p>If you received oligos in a plate, resuspend to the appropriate concentration and place in a microcentrifuge tube and write the Oligo Identifier number and molarity on both the cap and the side of the tube. It is key that we do this, since we won’t have the IDT label to use as a crutch.</p>
 
-<p>We pretty much only purchase antibodies and they are stored at either 4˚C or -20˚C. Please keep track of what antibodes we have by adding them to the Antibody Spreadsheet (link in the &quot;Organization&quot; channel of the lab Slack account). If you have ordered and received a new antibody, it gets an Ab Identifier number that is assigned sequentially. This is only important when keeping track of product sheets/inserts. </p>
+<p>Oligo Identifier, sequences, and information about the oligo should already be in the Oligo Spreadsheet (link in the “Organization” channel of the lab Slack account). Make yourself a working stock of oligo, and put the long-term stock in the oligo boxes in the common -20˚C freezer. The boxes are labeled numerically based on the Oligo Identifier, so put it in the right box!!!</p>
+
+<p>##Antibodies</p>
+
+<p>We pretty much only purchase antibodies and they are stored at either 4˚C or -20˚C. Please keep track of what antibodes we have by adding them to the Antibody Spreadsheet (link in the “Organization” channel of the lab Slack account). If you have ordered and received a new antibody, it gets an Ab Identifier number that is assigned sequentially. This is only important when keeping track of product sheets/inserts.</p>
 
 <p>For each antibody you receive, add it to the spreadsheet and then drop a copy of the PDF product sheet in the <em>antibody_repository</em> folder (on the Desktop of <strong><em>quark</em></strong>). Name your file based on the Ab Identifier number (format: <strong>AB1.pdf</strong>)</p>
 
-<p><img src="/images/misc/labmanual/antibody.png" alt=""></p>
+<p><img src="/images/misc/labmanual/antibody.png" alt="" /></p>
 
-<p>When we recieve an antibody, please read the accompanying documentation and determine whether the antibody needs to be aliquoted in some way. Some antibodies are sensitive to multiple freeze-thaw cyles and will need to be properly aliquoted. Please use some semblance of logic if you do so; for example, if there is 50uL of antibody, you might want to do 5-10uL aliquots. Please label the tube with <strong>at least</strong> the antibody name (on the cap and side) and the product # (on the side). If you can fit more info, that&#39;s fantastic. </p>
+<p>When we recieve an antibody, please read the accompanying documentation and determine whether the antibody needs to be aliquoted in some way. Some antibodies are sensitive to multiple freeze-thaw cyles and will need to be properly aliquoted. Please use some semblance of logic if you do so; for example, if there is 50uL of antibody, you might want to do 5-10uL aliquots. Please label the tube with <strong>at least</strong> the antibody name (on the cap and side) and the product # (on the side). If you can fit more info, that’s fantastic.</p>
+
 
 			</div>	
 		</div>			
@@ -231,36 +207,10 @@
 
 </div>
 
-	
+
 	</div>
-	
-      <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a class="smallhead" href='http://albany.edu/biology'>Department of Biological Sciences</a></li>
-          <li><a class="smallhead" href='http://www.albany.edu'> State University of New York at Albany</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a class="smallhead" href='/misc/manual/'>Lab Manual</a></li>
-          <li><a class="smallhead" href='/misc/contact/'>Contact</a></li>
-          <li><a class="smallhead" href='/misc/join/'>Join</a></li>
-          <li><a class="smallhead" href='/misc/about/'>Credit</a><li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
- 
+
 	<div id="footer"><span style="display:none">foo</span></div>
-		
+
 </body>
 </html>

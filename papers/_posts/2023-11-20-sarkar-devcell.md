@@ -3,7 +3,7 @@ layout: paper
 title: A feedback loop between heterochromatin and the nucleopore complex controls germ-cell to oocyte transition during Drosophila oogenesis
 image: /images/papers/2021-sarkar-bioRxiv.png
 authors: Sarkar K, Kotb NM, Lemus A, Martin ET, McCarthy A, Camacho J, Iqbal A, Valm AM, Sammons MA, and Rangan P
-ref: Reverdatto, et al. Developmental Cell 2023
+ref: Sarkar, et al. Developmental Cell 2023
 journal: "Developmental Cell"
 pdf: /pdfs/papers/2023-sarkar-devcell.pdf
 doi: 10.1016/j.devcel.2023.08.014 

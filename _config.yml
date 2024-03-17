@@ -1,42 +1,54 @@
 name: Sammons Lab Research
-description: Science updates on transcription factors, chromatin, and p53 biology from the Sammons Lab at the State University of New York at Albany
+description: Science updates from the Sammons lab at the University at Albany, SUNY
+url: http://sammonslab.org
 
-markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
 future: true
+sass:
+  sass_dir: css
 
-redcarpet:
-  extensions:
-   - tables
-   - no_intra_emphasis
-   - autolink
-   - superscript
-   - strikethrough
-root: /
+plugins:
+  - jekyll-gzip
+  - jekyll-twitter-plugin
+
+gzip:
+  replace_files: true
 
 exclude:
   - "*.branches"
-  - "*.kml"
-  - "*.log"
-  - "*.nb"
-  - "*.trees"
+  - "*.class"
   - "*.cpp"
+  - "*.csv"
+  - "*.fasta"
+  - "*.gz"
   - "*.h"
   - "*.hh"
-  - "*.java"
+  - "*.ipynb"
   - "*.jar"
-  - "*.csv"
+  - "*.java"
+  - "*.kml"
+  - "*.log"
+  - "*.mcc"
+  - "*.nb"
+  - "*.newick"
+  - "*.nex"
+  - "*.py"
+  - "*.R"
+  - "*.rb"
+  - "*.Rmd"
+  - "*.tiff"
+  - "*.tips"
+  - "*.trees"
   - "*.tsv"
   - "*.txt"
-  - "*.rb"
-  - "*.py"
-  - "*.class"
-  - "*.tips"
-  - "*.fasta"
-  - "*.nex"
+  - "*.xml"
+  - "*.zip"
   - "Gemfile"
   - "Gemfile.lock"
- 
 
+
+readmes:
+ 
 projects:
  

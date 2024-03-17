@@ -1,3 +1,3 @@
 ---
-BUNDLE_PATH: "/Users/sammons/.gem/ruby/2.6.0"
+BUNDLE_PATH: "~/Documents/GitHub/local_bundler_config"
 BUNDLE_DISABLE_SHARED_GEMS: "true"

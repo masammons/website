@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="Sammons Lab Research" href="http://localhost:4000/feed.xml">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
     <link href="/css/style.css" rel="stylesheet" media="screen">
@@ -15,7 +15,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/images/albany-logo.png"/>
 
-	<!-- Typekit 
+	<!-- Typekit -->
 	<script>
 	  (function(d) {
 		var config = {
@@ -24,19 +24,10 @@
 		},
 		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 	  })(document);
-	</script> -->
+	</script>
 
-    <!-- Typekit
-    <script>
-  (function(d) {
-    var config = {
-      kitId: 'jze3jjx',
-      scriptTimeout: 3000
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script> -->
-    
+	
+	    
 	<!-- Google Analytics -->	
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,69 +44,56 @@
 	<script src="/js/jquery.min.js"></script>
 	
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-										
-				<!--	<object class="logo navbar-brand" data="/images/nuc.svg" type="image/svg+xml"></object> -->
-				    <a href="/"><img class="img-responsive logo navbar-brand" src="/images/nuc.png"></a>
-					
-                    <a class="navbar-brand" href="/">Sammons Lab</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-element">
-					<ul class="nav navbar-nav navbar-right">
+		<nav class="navbar navbar-expand-sm navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/nuc.svg">
+					sammons lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/research/">Research</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/team/">People</a>
-                        </li>
-						
-						<li>
-						
-						<a href="/papers/">Papers</a>
-						</li>
-                        
-						<li>
-						
-						<a href="/news/">News</a>
+						<a class="mx-1" href="/research/">research</a>
 						</li>
 						
-						<li>
+						<li class="nav-link">
 						
-						<a href="/links/">Links</a>
+						<a class="mx-1" href="/team/">team</a>
 						</li>
-<!--						
-						<li>
 						
-						<a href="/projects/">projects</a>
-                        </li>	  	  -->
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/news/">news</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/links/">links</a></li>
 					</ul>
 				</div>
 			</div>
-		</nav>	
+		</nav>
 	</div>
-	
-	<div class="container">	
-		
+
+	<div class="container mt-4">
+
 	
 
 <div class="blog-post">
@@ -155,30 +133,28 @@
 <strong>Storage</strong>: Room temperature
 ​
 <strong>Storage Location</strong>: Main lab, Tissue culture room, against the wall, beside the incubator (there should be one tank in use and a spare tank beside it.)</p>
-<div class="highlight"><pre><code class="language-" data-lang="">                  The loading dock on the first floor, to the left in the last cage. 
-</code></pre></div>
-<p>​
-<strong>Uses</strong>: Provide the Cell Incubator with CO2
-​
-<strong>Notes</strong>: 1. If you see that the tank has dropped to 500 psi then that means that it needs to be changed.</p>
-<div class="highlight"><pre><code class="language-" data-lang="">       2. Go downstairs to the loading dock and ask Dane to unlock the gate with the tanks. 
 
-       3. Carefully load a tank onto the wheel barrow, hook the chain across to make sure it is secure and take it up to the lab.
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>				  The loading dock on the first floor, to the left in the last cage.  ​ **Uses**: Provide the Cell Incubator with CO2 ​ **Notes**: 1. If you see that the tank has dropped to 500 psi then that means that it needs to be changed.
 
-       4. Stop the CO2 flow of the current tank in use to the incubator by turning off the valve. 
+	   2. Go downstairs to the loading dock and ask Dane to unlock the gate with the tanks. 
+	   
+	   3. Carefully load a tank onto the wheel barrow, hook the chain across to make sure it is secure and take it up to the lab.
 
-       5. Use the wrench or your hand to twist off the bolt that connects the tank to the multistage regulator. 
+	   4. Stop the CO2 flow of the current tank in use to the incubator by turning off the valve. 
+	   
+	   5. Use the wrench or your hand to twist off the bolt that connects the tank to the multistage regulator. 
+	   
+	   6. Carefully move that used tank out and on the wheel barrow. Hook the chain across to hold it in place. 
+	   
+	   7. Replace the used tank with a new tank, hook the chain across it to secure it to the wall. Place the spare tank next to it and hook the chain to secure it to the wall as well.
+	   
+	   8. Twist the top off of the tank and connect it to the multistage regulator by using the wrench to twist the bolt until it is securely fastened. 
+	   
+	   9. Turn the valve to allow for CO2 flow to the incubator (if your hear air escaping it is not secured properly).
+	   
+	   10. Take the old tank back downstairs to the loading dock, in the cage on the left, leave the wheel barrow and lock the gate.  
+</code></pre></div></div>
 
-       6. Carefully move that used tank out and on the wheel barrow. Hook the chain across to hold it in place. 
-
-       7. Replace the used tank with a new tank, hook the chain across it to secure it to the wall. Place the spare tank next to it and hook the chain to secure it to the wall as well.
-
-       8. Twist the top off of the tank and connect it to the multistage regulator by using the wrench to twist the bolt until it is securely fastened. 
-
-       9. Turn the valve to allow for CO2 flow to the incubator (if your hear air escaping it is not secured properly).
-
-       10. Take the old tank back downstairs to the loading dock, in the cage on the left, leave the wheel barrow and lock the gate.  
-</code></pre></div>
 			</div>	
 		</div>			
 		<div class="col-md-1"></div>
@@ -189,36 +165,10 @@
 
 </div>
 
-	
+
 	</div>
-	
-      <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a class="smallhead" href='http://albany.edu/biology'>Department of Biological Sciences</a></li>
-          <li><a class="smallhead" href='http://www.albany.edu'> State University of New York at Albany</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a class="smallhead" href='/misc/manual/'>Lab Manual</a></li>
-          <li><a class="smallhead" href='/misc/contact/'>Contact</a></li>
-          <li><a class="smallhead" href='/misc/join/'>Join</a></li>
-          <li><a class="smallhead" href='/misc/about/'>Credit</a><li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
- 
+
 	<div id="footer"><span style="display:none">foo</span></div>
-		
+
 </body>
 </html>
