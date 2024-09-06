@@ -4,6 +4,8 @@ title: Gabriele Baniulyte
 position: Postdoctoral Fellow
 handle: gbaniulyte
 email: gbaniulyte@albany.edu
+scholar: -3zRTiQAAAAJ
+github: gbaniulyte
 image: /images/team/baniulyte_june2021.jpg
 alumni: false
 ---

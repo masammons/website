@@ -8,4 +8,4 @@ image: /images/team/flashman.png
 alumni: true
 ---
 
-Mya Moriconi is an undergraduate Human Biology major here at the University at Albany. She joined the lab in the Fall of 2021 and will be graduating Spring 2024!
+Mya Moriconi was an undergraduate Human Biology major here at the University at Albany. She joined the lab in the Fall of 2021 and graduated in the Spring of 2024!

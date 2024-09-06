@@ -6,12 +6,14 @@ handle: sammons
 email: masammons@albany.edu
 twitter: sammonslab
 scholar: 3JscVhgAAAAJ
-cv: /pdfs/links/Sammons_Academic_CV_Mar2024.pdf
+cv: /pdfs/links/Sammons_Academic_CV_Aug2024.pdf
 image: /images/team/morgan-sammons-feb-2022.jpg
 
 ---
 
-I'm an Assistant Professor at [State University of New York at Albany](http://www.albany.edu) in the [Department of Biology](http://www.albany.edu/biology). I teach the undergraduate courses ABIO 329: Genetics of Human Disease during the Fall semester. In the Spring semester, I co-teach the graduate course ABIO 524: Advanced Molecular Biology which is a core course in our Biology PhD Program.
+I'm an Associate Professor at [State University of New York at Albany](http://www.albany.edu) in the [Department of Biology](http://www.albany.edu/biology). I'm also a member of [The RNA Institute](https://www.albany.edu/rna). 
+
+I teach the undergraduate courses ABIO 329: Genetics of Human Disease during the Fall semester. In the Spring semester, I co-teach the graduate course ABIO 524: Advanced Molecular Biology which is a core course in our Biology PhD Program.
 
 I also run a research lab. We study the [p53 family of transcription factors](/research/p53-family/). This paralogous family controls a number of critical organismal behaviors, including tumor suppression, epithelial differentiation, and control of cilia production. We are interested in how seemingly similar proteins generate incredibly diverse transcriptional and cellular outcomes. 
 

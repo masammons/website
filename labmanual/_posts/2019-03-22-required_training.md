@@ -15,6 +15,7 @@ _Online training_
 * Take the "Training for Investigators, Staff, and Students Handling Biohazards" course.
 * Take the "Shipping and Transport of Regulated Biological Materials" course. 
 * Take the "Managing Conflicts of Interest in Research" course. 
+* Take the "Responsible Conduct of Research"
 
 When complete, print or save the certificate and send to [Morgan](/team/morgan-sammons).
 
