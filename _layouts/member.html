@@ -115,6 +115,17 @@ layout: default
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
+		{% if member.linked %}
+		<div class="smallhead">
+			LinkedIn
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-book fa-fw"></i>
+			<a class="off" href="http://linkedin.com/in/{{ member.linked }}">{{ member.title }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
 		{% if member.calendar %}
 		<div class="smallhead">
 			Calendar
@@ -135,6 +146,18 @@ layout: default
 			<div class="smallspacer"></div>
 			<i class="fa fa-inbox fa-fw"></i>
 			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+		
+		{% if member.bluesky %}
+		<div class="smallhead">
+			Bluesky
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-book fa-fw"></i>
+			<a class="off" href="https://bsky.app/profile/{{ member.bluesky }}">{{ member.title }}</a>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}

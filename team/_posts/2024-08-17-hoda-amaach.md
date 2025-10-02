@@ -4,7 +4,7 @@ title: Hoda Amaach
 position: Undergraduate Researcher
 handle: hamaach
 email: hamaach@albany.edu
-image: /images/team/metalman.png
+image: /images/team/hoda-amaach.jpg
 alumni: false
 ---
 

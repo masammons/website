@@ -6,6 +6,7 @@ handle: gbaniulyte
 email: gbaniulyte@albany.edu
 scholar: -3zRTiQAAAAJ
 github: gbaniulyte
+linked: gbaniulyte/
 image: /images/team/baniulyte_june2021.jpg
 alumni: false
 ---

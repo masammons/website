@@ -6,12 +6,16 @@ handle: sammons
 email: masammons@albany.edu
 twitter: sammonslab
 scholar: 3JscVhgAAAAJ
-cv: /pdfs/links/Sammons_Academic_CV_Aug2024.pdf
+linked: morgan-sammons-a248993b/
+bluesky: sammons.bsky.social
+cv: /pdfs/links/Sammons_Academic_CV_Dec2024.pdf
 image: /images/team/morgan-sammons-feb-2022.jpg
 
 ---
 
 I'm an Associate Professor at [State University of New York at Albany](http://www.albany.edu) in the [Department of Biology](http://www.albany.edu/biology). I'm also a member of [The RNA Institute](https://www.albany.edu/rna). 
+
+I was appointed Associate Dean of Natural Sciences and Mathematics in the College of Arts and Sciences in January 2025. 
 
 I teach the undergraduate courses ABIO 329: Genetics of Human Disease during the Fall semester. In the Spring semester, I co-teach the graduate course ABIO 524: Advanced Molecular Biology which is a core course in our Biology PhD Program.
 

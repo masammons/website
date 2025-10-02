@@ -4,7 +4,8 @@ title: Jared Rogalski
 position: Masters Student
 handle: jrogalski
 email: jrogalski@albany.edu
-image: /images/team/flashman.png
+linked: jared-rogalski-805547257/
+image: /images/team/jared-rogalski.jpg
 alumni: false
 ---
 

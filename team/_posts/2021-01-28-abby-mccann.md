@@ -3,7 +3,8 @@ layout: member
 title: Abby McCann
 position: PhD student
 handle: amccann
-email: na@albany.edu
+email: amccann3@albany.edu
+linked: abby-mccann-959284287/
 image: /images/team/mccann_june2021.jpg
 alumni: false
 ---
