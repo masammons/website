@@ -8,7 +8,7 @@ twitter: sammonslab
 scholar: 3JscVhgAAAAJ
 linked: morgan-sammons-a248993b/
 bluesky: sammons.bsky.social
-cv: /pdfs/links/Sammons_Academic_CV_Dec2024.pdf
+cv: /pdfs/links/Sammons_Academic_CV_oct2025.pdf
 image: /images/team/morgan-sammons-feb-2022.jpg
 
 ---
